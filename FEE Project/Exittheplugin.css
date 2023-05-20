@@ -1,0 +1,82 @@
+#navi{
+    background-color:rgb(132, 126, 126);
+    list-style-type: none;
+    height: 50px;
+    padding: 40px 40px;
+    width: auto;
+}
+h1{
+    font-size: 30px;
+    font-weight: 500px;
+    text-align: center;
+    position:relative;
+    bottom: 50px;
+}
+#img{
+    float: right;
+    position: absolute;
+    top: 25px;
+    right: 25px;
+}
+#imgcart{
+    float: right;
+    position: absolute;
+    top: 70px;
+    right: 25px;
+}
+#imgprofile{
+    float: right;
+    position: absolute;
+    top: 70px;
+    right: 80px;
+}
+#div1{
+    background-color: black;
+    height: 80px;
+    width: 1400px;
+    float: right;
+    right: -90px;
+}
+li{
+    background-color: black;
+    display: inline;
+    top: 30px;
+    list-style-type:none;
+    left:270px;
+    font-size: 20px;
+    color:whitesmoke;
+    position:relative;
+    padding:20px 20px;
+    font-weight: 4px;
+    text-align: center;
+    
+    
+}
+.search input[type=text]{
+    width:50%;
+    height:40px;
+    position: center;
+    position: relative;
+    bottom: 50px;
+    border-radius:10px;
+    border: none;
+}
+     
+.search{
+    width: 100%;
+    padding-left: 290px;
+    position: relative;
+    margin: -13px;
+}
+     
+.search button{
+    float: right;
+    left: 1020px;
+    top:-45px;
+    position: absolute;
+    padding: 0px 0px;
+    margin-right: 20px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}

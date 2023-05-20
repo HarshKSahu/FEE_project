@@ -1,0 +1,66 @@
+#gcontainer{
+    margin-top: 10px;
+    display: grid;
+    float: right;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: auto auto auto;
+
+} 
+#gcontainer {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px;
+    top: -440px
+}
+#gcontainer #gcard {
+    height: 200px;
+    max-width: 1810px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background: wheat;
+    display:flex;
+    flex-direction:column;
+    box-shadow: 0 5px 20px black;
+    transition: 0.3s ease-in-out;
+    left: 380px;
+    top: -1520px;
+    border-radius: 0.5em;
+}
+#gcontainer #gcard:hover {
+    height: 190px;
+}
+#gcontainer #gcard #gimgbox {
+    position: relative;
+    width: 190px;
+    height: 700px;
+    top: -12px;
+    left: -3px;
+   
+}
+#gcontainer #gcard #gimgbox img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 4px;
+}
+#gcontainer #gcard #gcontent {
+    position: relative;
+    margin-top: -20px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+#gcontainer #gcard:hover #gcontent {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}

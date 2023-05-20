@@ -1,0 +1,66 @@
+#tcontainer{
+    margin-top: 10px;
+    display: grid;
+    float: right;
+    column-gap: 30px;
+    row-gap: 30px;
+    grid-template-columns: auto auto auto;
+
+}
+#tcontainer {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 35px;
+    top: -440px
+} 
+#tcontainer #tcard {
+    height: 200px;
+    max-width: 1810px;
+    position: relative;
+    margin: 30px 10px;
+    padding: 20px 15px;
+    background: wheat;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 5px 20px black;
+    transition: 0.3s ease-in-out;
+    left: 135px;
+    top: -1140px;
+    border-radius: 0.5em;
+}
+#tcontainer #tcard:hover {
+    height: 190px;
+} 
+#tcontainer #tard #timgbox {
+    position: relative;
+    width: 190px;
+    height: 700px;
+    top: -10px;
+    left: -3px;
+   
+}
+#tcontainer #tcard #timgbox img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 4px;
+}
+#tcontainer #tcard #tcontent {
+    position: relative;
+    margin-top: -20px;
+    padding: 10px 15px;
+    text-align: center;
+    color: #111;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.3s ease-in-out;
+}
+#tcontainer #tcard:hover #tcontent {
+    visibility: visible;
+    opacity: 1;
+    margin-top: -10px;
+    transition-delay: 0.3s;
+}
